@@ -35,54 +35,51 @@ nav {
 
 
 
-
-/* Split the screen in half */
-.split {
-    height: 650px;
-    width: 50%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  /* Control the left side */
-  .dark {
-    left: 0;
-    background-color:#262626;
-  }
-  
-  /* Control the right side */
-  .light {
-    right: 0;
-    background-color:#777474;
-  }
-
-
-.bot-right {
-    float: left;
-    font-size: 200px;
-    margin-left: 600px;
-    margin-top: 400px;
-    color: #262626;
+.light {
+  height: 650px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: #777474;
 }
 
-.bot-left {
+.dark {
+  height: 650px;
+  width: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: #262626;
+}
+  
+
+.InRight {
+  float: left;
+  font-size: 200px;
+  margin-left: 600px;
+  margin-top: 400px;
+  color: #777474;
+}
+
+.YuLeft {
     float: right;
     font-size: 200px;
     margin-right: 600px;
     margin-top: 400px;
-    color: #777474;
+    color: #262626;
 }
 
 
 /* Gallery CSS */
 
 .gal_cont {
-  z-index: -2;
-  padding: 600px;
-  position: fixed;
+  position: absolute;
+  z-index: -1;
+  margin-top: 660px;
+  margin-right: 200px;
   background-color: #777474;
   height: 1000px;
   width: 100%;
