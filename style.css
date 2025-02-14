@@ -1,11 +1,47 @@
 
 
+nav {
+  z-index: 1000px;
+  display: flex;
+  justify-content: center;
+  background-color: #aaa3a37f;
+  position: fixed;
+  padding: 0.5rem;
+  border-radius: 90px;
+  border-color: #1b1a1a;
+  border-style: solid;
+  width: 20%;
+  margin-left: 40%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px); 
+  top: 1;
+  left: 0;
+}
+
+#homel {
+  margin-right: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+#aboutl {
+  margin-left: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+
+
+
+
 /* Split the screen in half */
 .split {
     height: 650px;
     width: 50%;
-    position: fixed;
-    z-index: 1;
+    position: absolute;
+    z-index: -1;
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
@@ -27,7 +63,7 @@
 .bot-right {
     float: left;
     font-size: 200px;
-    margin-left: 390px;
+    margin-left: 600px;
     margin-top: 400px;
     color: #262626;
 }
@@ -35,7 +71,19 @@
 .bot-left {
     float: right;
     font-size: 200px;
-    margin-right: 450px;
+    margin-right: 600px;
     margin-top: 400px;
     color: #777474;
+}
+
+
+/* Gallery CSS */
+
+.gal_cont {
+  z-index: -2;
+  padding: 600px;
+  position: fixed;
+  background-color: #777474;
+  height: 1000px;
+  width: 100%;
 }
