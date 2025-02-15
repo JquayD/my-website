@@ -56,20 +56,20 @@ nav {
 }
   
 
-.InRight {
-  float: left;
+.yuright {
+  float: right;
   font-size: 200px;
-  margin-left: 600px;
+  margin-right: 100px;
   margin-top: 400px;
-  color: #777474;
+  color: #262626;
 }
 
-.YuLeft {
+.yuleft {
     float: right;
     font-size: 200px;
-    margin-right: 600px;
+    margin-right: 650px;
     margin-top: 400px;
-    color: #262626;
+    color: #777474;
 }
 
 
@@ -78,8 +78,6 @@ nav {
 .gal_cont {
   position: absolute;
   z-index: -1;
-  margin-top: 660px;
-  margin-right: 200px;
   background-color: #777474;
   height: 1000px;
   width: 100%;
